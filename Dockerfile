@@ -7,7 +7,7 @@ WORKDIR /app
 # Instalar git para clonar el repositorio
 RUN apt-get update && apt-get install -y git
 
-# Clonar el repositorio desde GitHub (REEMPLAZA el usuario)
+# Clonar el repositorio desde GitHub 
 RUN git clone https://github.com/FlorArlette/mensaje-terminal.git
 
 # Entrar a la carpeta clonada
